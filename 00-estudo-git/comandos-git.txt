@@ -1,1 +1,9 @@
 git init - inicia o repo git
+
+git clone - faz o download do repositorio do git remoto
+
+git status apresenta o status do repositorio local
+
+git add <arquivo> - adiciona arquivo modificado ou nao rastreado para o proximo commit
+
+git add . - adiciona todos os arquivos modificados ou não rastreados do diretório atual
