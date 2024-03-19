@@ -97,3 +97,29 @@ if dia in dias:
     print (dias[dia])
 
 
+#ternário
+idade = 20
+
+
+match dia:
+    case 1:
+        print ("dom")
+    case 2:
+        print ("seg")
+    case 3:
+        print ("ter")
+    case 4:
+        print("opc invalida")
+
+#imprimir 1 e 7 - fim de semana
+
+match dia:
+    case 1 | 7:
+        print ("fim de semanaa")
+    case 2|3|4|5|6:
+        print ("dia util")
+    case _:
+        print ("dia invalido")
+
+
+        
