@@ -10,8 +10,10 @@ from matematica import PI, somar, subitrair
 
 PI = 99999
 
-print(matematica.PI)
-print(matematica.somar(10, 10))
+num = int(input("n1: \n"))
+num2 = int(input("n2: \n"))
+
+print(matematica.somar(num, num2))
 
 from estatistica.descritiva import media, maximo, minimo
 from estatistica.inferencial import VALOR
